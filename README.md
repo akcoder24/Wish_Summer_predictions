@@ -35,7 +35,7 @@ This repository presents a research endeavor focused on utilizing two powerful m
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/akcoder24/Wish_Summer_predictions.git
 
 
 2. Install the required dependencies:
@@ -59,4 +59,4 @@ devtools::install("path/to/your-repository")
 
 Feel free to explore the code and contribute to further advancements in e-commerce sales forecasting!
 
-**Note:** Replace placeholders such as `your-username` and `your-repository` with your actual GitHub username and repository name. Also, provide the appropriate Kaggle dataset link in the acknowledgments section.
+
