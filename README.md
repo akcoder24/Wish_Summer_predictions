@@ -36,15 +36,21 @@ This repository presents a research endeavor focused on utilizing two powerful m
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
-   ```
+
 
 2. Install the required dependencies:
+```
+# Install and load devtools if not installed
+if (!require("devtools")) install.packages("devtools", repos = "http://cran.us.r-project.org")
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Load devtools package
+library(devtools)
 
-3. Run the Jupyter notebooks for detailed analysis and model training.
+# Install required R packages from the cloned repository
+devtools::install("path/to/your-repository")
+```
+
+3. Run the Markdown for detailed analysis and model training.
 
 ## Acknowledgments
 
